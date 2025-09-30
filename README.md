@@ -1,8 +1,6 @@
-# Traffic-Flow-Forcasting
+#Traffic Flow Forecasting using GCN + Transformer + Cross-Attention
 
-Traffic Flow Forecasting using GCN + Transformer + Cross-Attention
-
-Project Overview
+#Project Overview
 
 This project implements a hybrid deep learning model for spatio-temporal traffic forecasting by combining Graph Convolutional Networks (GCNs), Transformers, and a Cross-Attention mechanism. Traffic prediction is a complex problem influenced by both spatial dependencies (road network structure) and temporal patterns (traffic changes over time).
 
@@ -16,7 +14,7 @@ Cross-Attention Module – Fuses spatial and temporal embeddings, highlighting i
 
 Dense Layers – Generate final traffic predictions for multiple nodes simultaneously.
 
-Features / Highlights
+#Features / Highlights
 
 Joint modeling of spatial and temporal dependencies.
 
@@ -26,7 +24,7 @@ Improved interpretability through attention weights.
 
 Averaged or node-wise predictions with visualization.
 
-Tools & Technologies
+#Tools & Technologies
 
 Language: Python
 
@@ -34,7 +32,7 @@ Libraries: PyTorch, NumPy, Pandas, Matplotlib, Scikit-learn
 
 Environment: Jupyter Notebook
 
-Usage
+#Usage
 
 Clone the repository.
 
@@ -44,7 +42,7 @@ Run the notebook to train the hybrid model and generate predictions.
 
 Visualize results using provided plotting functions.
 
-Future Enhancements
+#Future Enhancements
 
 Incorporate external factors such as weather, events, and accidents.
 
